@@ -1,0 +1,20 @@
+{
+    "name": "helsingborg-stad/mce-table-buttons",
+    "description": "Fork of 10ups archived mce-table-buttons",
+    "type": "wordpress-plugin",
+    "require": {
+        "composer/installers": "~1.0"
+    },
+    "license": "GNU General Public License v2.0",
+    "minimum-stability": "dev",
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    },
+    "extra": {
+        "installer-paths": {
+            "vendor/{$vendor}/{$name}/": ["vendor:wpackagist-plugin"]
+        }
+    }
+}
